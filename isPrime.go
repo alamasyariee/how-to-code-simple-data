@@ -10,15 +10,17 @@ func IsPrime(n int) {
 	}
 
 	for i := 2; i < n; i++ {
-		if n % i == 0 {
+
+		if (n % i == 0) {
 			isTrue = false
 			break
 		}
 	}
 
-	if isTrue {
-		fmt.Printf("Angka yang anda masukkan adalah bilangan prima")
+	if (isTrue) {
+		fmt.Println("Angka yang anda masukkan adalah bilangan prima")
 	} else {
-		fmt.Printf("Angka yang anda masukkan bukanlah bilangan prima")
+		fmt.Println("Angka yang anda masukkan bukanlah bilangan prima")
 	}
+
 }
