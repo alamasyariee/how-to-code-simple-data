@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func multiplication() {
 	var num int
 
 	fmt.Print("Masukkan perkalian yang anda inginkan: ")
